@@ -1,38 +1,77 @@
 .App {
   text-align: center;
 }
+ul{
+  list-style-type: none;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li a{
+text-decoration: none;
+margin-left:1rem;
+color:black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+li a:hover {
+  color: grey;
+}
+.brand{
+  font-weight: bolder;
+}
+.name{
+ color: rgb(46, 196, 196);
+}
+.home-p{
+  font-weight: bolder;
+}
+.main{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  display:grid ;
+  grid-template-columns: 1fr 1fr;
+  margin-top:10rem;
+  
+}
+.article-pic{
+  height:20rem;
+  width: 20rem;
+}
+.infos{
+text-align: left;
+margin-left:10rem;
+}
+.article-socialMedia {
+  margin-left:6rem;
 }
 
-.App-link {
-  color: #61dafb;
+.article-socialMedia li a{
+  float: left;
+  display: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.products{
+  margin-top: 2rem;
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.images{
+  height:20rem;
+  width:15rem;
+}
+
+.aboutme {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top:5rem;
+}
+
+.aboutme-info{
+text-align:right;
+}
+.aboutme-cert{
+  text-align: right;
+}
+h5{
+  text-align: right;
 }
